@@ -1,0 +1,6 @@
+framework module Pods_NextappTechTask {
+  umbrella header "Pods-NextappTechTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
