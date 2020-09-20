@@ -3,12 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		01BD4E283421BA352AF6E4C8 /* Pods_NextappTechTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B51FA783DC62E085911E40 /* Pods_NextappTechTaskTests.framework */; };
 		34D7FAB78393F410039D4B37 /* Pods_NextappTechTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1871069095A726BFB890CEED /* Pods_NextappTechTask.framework */; };
+		D445B88625168239002EF638 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B88525168239002EF638 /* TransitionHandler.swift */; };
+		D445B88B25168254002EF638 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B88A25168254002EF638 /* Navigator.swift */; };
+		D445B8912516828B002EF638 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8902516828B002EF638 /* Resolver.swift */; };
+		D445B896251682B6002EF638 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B895251682B6002EF638 /* Module.swift */; };
+		D445B89B251682CC002EF638 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B89A251682CC002EF638 /* AppContainer.swift */; };
+		D445B8A0251682F0002EF638 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B89F251682F0002EF638 /* BaseViewController.swift */; };
+		D445B8A525168307002EF638 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8A425168307002EF638 /* NavigationController.swift */; };
+		D445B8AA25168322002EF638 /* ProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8A925168322002EF638 /* ProgressHud.swift */; };
+		D445B8AF2516835D002EF638 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8AE2516835D002EF638 /* BaseApi.swift */; };
+		D445B8B425168376002EF638 /* Deseriazable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8B325168376002EF638 /* Deseriazable.swift */; };
+		D445B8B925168392002EF638 /* ApiGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8B825168392002EF638 /* ApiGateway.swift */; };
+		D445B8BE251683B1002EF638 /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8BD251683B1002EF638 /* ApiEndPoint.swift */; };
+		D445B8C3251683D5002EF638 /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8C2251683D5002EF638 /* ErrorEntity.swift */; };
+		D445B8C8251683F9002EF638 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8C7251683F9002EF638 /* ApiProvider.swift */; };
+		D445B8CD25168627002EF638 /* HudStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8CC25168627002EF638 /* HudStatus.swift */; };
+		D445B8D22516869E002EF638 /* ApiEvent+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8D12516869E002EF638 /* ApiEvent+Rx.swift */; };
+		D445B8D725168706002EF638 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8D625168706002EF638 /* Rx.swift */; };
+		D445B8DC25168720002EF638 /* UIViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8DB25168720002EF638 /* UIViewController+UI.swift */; };
+		D445B8E125168796002EF638 /* ProgressHud+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8E025168796002EF638 /* ProgressHud+Rx.swift */; };
+		D445B8E6251687BD002EF638 /* SDWebImage+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8E5251687BD002EF638 /* SDWebImage+Rx.swift */; };
+		D445B8EB25169014002EF638 /* ReusableKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8EA25169014002EF638 /* ReusableKit.swift */; };
+		D445B8F02516904C002EF638 /* RootAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8EF2516904C002EF638 /* RootAssembler.swift */; };
+		D445B8F62516908F002EF638 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8F52516908F002EF638 /* AppModule.swift */; };
+		D445B8FC251690B5002EF638 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B8FB251690B5002EF638 /* AppRouter.swift */; };
+		D445B901251690D6002EF638 /* AppRouter+TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B900251690D6002EF638 /* AppRouter+TransitionHandler.swift */; };
+		D445B906251690F0002EF638 /* AppRouter+Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B905251690F0002EF638 /* AppRouter+Show.swift */; };
+		D445B90B25169116002EF638 /* AppRouterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B90A25169116002EF638 /* AppRouterOptions.swift */; };
+		D445B9102516912C002EF638 /* AppRouterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B90F2516912C002EF638 /* AppRouterAssembly.swift */; };
+		D445B91C251691DD002EF638 /* FeedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B91B251691DD002EF638 /* FeedModule.swift */; };
+		D445B924251691E8002EF638 /* FeedModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B923251691E8002EF638 /* FeedModuleAssembly.swift */; };
+		D445B929251691F4002EF638 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B928251691F4002EF638 /* FeedService.swift */; };
+		D445B92E25169200002EF638 /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B92D25169200002EF638 /* FeedRouter.swift */; };
+		D445B9332516920E002EF638 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B9322516920E002EF638 /* FeedViewModel.swift */; };
+		D445B93925169228002EF638 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B93725169228002EF638 /* FeedViewController.swift */; };
+		D445B93A25169228002EF638 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D445B93825169228002EF638 /* FeedViewController.xib */; };
+		D445B94025169240002EF638 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B93E25169240002EF638 /* PreviewViewController.swift */; };
+		D445B94125169240002EF638 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D445B93F25169240002EF638 /* PreviewViewController.xib */; };
+		D445B9462516924D002EF638 /* PreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B9452516924D002EF638 /* PreviewViewModel.swift */; };
+		D445B94B25169E72002EF638 /* FeedViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B94A25169E72002EF638 /* FeedViewAssembly.swift */; };
+		D445B95D2517695C002EF638 /* FeedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B95C2517695C002EF638 /* FeedEntity.swift */; };
+		D445B96225176AFB002EF638 /* FeedApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B96125176AFB002EF638 /* FeedApi.swift */; };
 		D4F2EFBF251659400099DCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2EFBE251659400099DCCA /* AppDelegate.swift */; };
 		D4F2EFC1251659400099DCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2EFC0251659400099DCCA /* SceneDelegate.swift */; };
 		D4F2EFC82516594A0099DCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F2EFC72516594A0099DCCA /* Assets.xcassets */; };
@@ -39,6 +80,47 @@
 		662749FFEF599FAC96CCCB74 /* Pods-NextappTechTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextappTechTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-NextappTechTaskTests/Pods-NextappTechTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B83DD9A35351A18255E78A48 /* Pods-NextappTechTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextappTechTask.debug.xcconfig"; path = "Target Support Files/Pods-NextappTechTask/Pods-NextappTechTask.debug.xcconfig"; sourceTree = "<group>"; };
 		C9B51FA783DC62E085911E40 /* Pods_NextappTechTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextappTechTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D445B88525168239002EF638 /* TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
+		D445B88A25168254002EF638 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		D445B8902516828B002EF638 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		D445B895251682B6002EF638 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		D445B89A251682CC002EF638 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		D445B89F251682F0002EF638 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D445B8A425168307002EF638 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D445B8A925168322002EF638 /* ProgressHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHud.swift; sourceTree = "<group>"; };
+		D445B8AE2516835D002EF638 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		D445B8B325168376002EF638 /* Deseriazable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deseriazable.swift; sourceTree = "<group>"; };
+		D445B8B825168392002EF638 /* ApiGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiGateway.swift; sourceTree = "<group>"; };
+		D445B8BD251683B1002EF638 /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		D445B8C2251683D5002EF638 /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
+		D445B8C7251683F9002EF638 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		D445B8CC25168627002EF638 /* HudStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudStatus.swift; sourceTree = "<group>"; };
+		D445B8D12516869E002EF638 /* ApiEvent+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiEvent+Rx.swift"; sourceTree = "<group>"; };
+		D445B8D625168706002EF638 /* Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
+		D445B8DB25168720002EF638 /* UIViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+UI.swift"; sourceTree = "<group>"; };
+		D445B8E025168796002EF638 /* ProgressHud+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressHud+Rx.swift"; sourceTree = "<group>"; };
+		D445B8E5251687BD002EF638 /* SDWebImage+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SDWebImage+Rx.swift"; sourceTree = "<group>"; };
+		D445B8EA25169014002EF638 /* ReusableKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableKit.swift; sourceTree = "<group>"; };
+		D445B8EF2516904C002EF638 /* RootAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAssembler.swift; sourceTree = "<group>"; };
+		D445B8F52516908F002EF638 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
+		D445B8FB251690B5002EF638 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		D445B900251690D6002EF638 /* AppRouter+TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRouter+TransitionHandler.swift"; sourceTree = "<group>"; };
+		D445B905251690F0002EF638 /* AppRouter+Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppRouter+Show.swift"; sourceTree = "<group>"; };
+		D445B90A25169116002EF638 /* AppRouterOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterOptions.swift; sourceTree = "<group>"; };
+		D445B90F2516912C002EF638 /* AppRouterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterAssembly.swift; sourceTree = "<group>"; };
+		D445B91B251691DD002EF638 /* FeedModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModule.swift; sourceTree = "<group>"; };
+		D445B923251691E8002EF638 /* FeedModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModuleAssembly.swift; sourceTree = "<group>"; };
+		D445B928251691F4002EF638 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
+		D445B92D25169200002EF638 /* FeedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRouter.swift; sourceTree = "<group>"; };
+		D445B9322516920E002EF638 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		D445B93725169228002EF638 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D445B93825169228002EF638 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		D445B93E25169240002EF638 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		D445B93F25169240002EF638 /* PreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
+		D445B9452516924D002EF638 /* PreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewModel.swift; sourceTree = "<group>"; };
+		D445B94A25169E72002EF638 /* FeedViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAssembly.swift; sourceTree = "<group>"; };
+		D445B95C2517695C002EF638 /* FeedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedEntity.swift; sourceTree = "<group>"; };
+		D445B96125176AFB002EF638 /* FeedApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedApi.swift; sourceTree = "<group>"; };
 		D4F2EFBB251659400099DCCA /* NextappTechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextappTechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F2EFBE251659400099DCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F2EFC0251659400099DCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,8 +181,197 @@
 				662749FFEF599FAC96CCCB74 /* Pods-NextappTechTaskTests.debug.xcconfig */,
 				DEE23D5BF5EEA4B48256CD50 /* Pods-NextappTechTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D445B87D251681C5002EF638 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D445B88F25168280002EF638 /* DI */,
+				D445B880251681F6002EF638 /* Navigation */,
+				D445B87F251681EF002EF638 /* API */,
+				D445B87E251681E2002EF638 /* UI */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D445B87E251681E2002EF638 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D445B89F251682F0002EF638 /* BaseViewController.swift */,
+				D445B8A425168307002EF638 /* NavigationController.swift */,
+				D445B8A925168322002EF638 /* ProgressHud.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D445B87F251681EF002EF638 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D445B95B25176947002EF638 /* Feed */,
+				D445B8AE2516835D002EF638 /* BaseApi.swift */,
+				D445B8B325168376002EF638 /* Deseriazable.swift */,
+				D445B8B825168392002EF638 /* ApiGateway.swift */,
+				D445B8BD251683B1002EF638 /* ApiEndPoint.swift */,
+				D445B8C2251683D5002EF638 /* ErrorEntity.swift */,
+				D445B8C7251683F9002EF638 /* ApiProvider.swift */,
+				D445B8CC25168627002EF638 /* HudStatus.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D445B880251681F6002EF638 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D445B88525168239002EF638 /* TransitionHandler.swift */,
+				D445B88A25168254002EF638 /* Navigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D445B881251681FF002EF638 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D445B8832516820F002EF638 /* UI */,
+				D445B88225168208002EF638 /* Rx */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D445B88225168208002EF638 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				D445B8D12516869E002EF638 /* ApiEvent+Rx.swift */,
+				D445B8D625168706002EF638 /* Rx.swift */,
+				D445B8DB25168720002EF638 /* UIViewController+UI.swift */,
+				D445B8E025168796002EF638 /* ProgressHud+Rx.swift */,
+				D445B8E5251687BD002EF638 /* SDWebImage+Rx.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		D445B8832516820F002EF638 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D445B8EA25169014002EF638 /* ReusableKit.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D445B8842516821C002EF638 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D445B9142516917E002EF638 /* FeedModule */,
+				D445B8F425169069002EF638 /* AppModule */,
+				D445B8EF2516904C002EF638 /* RootAssembler.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D445B88F25168280002EF638 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D445B8902516828B002EF638 /* Resolver.swift */,
+				D445B895251682B6002EF638 /* Module.swift */,
+				D445B89A251682CC002EF638 /* AppContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D445B8F425169069002EF638 /* AppModule */ = {
+			isa = PBXGroup;
+			children = (
+				D445B8F52516908F002EF638 /* AppModule.swift */,
+				D445B8FA251690A5002EF638 /* Router */,
+			);
+			path = AppModule;
+			sourceTree = "<group>";
+		};
+		D445B8FA251690A5002EF638 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D445B8FB251690B5002EF638 /* AppRouter.swift */,
+				D445B900251690D6002EF638 /* AppRouter+TransitionHandler.swift */,
+				D445B905251690F0002EF638 /* AppRouter+Show.swift */,
+				D445B90A25169116002EF638 /* AppRouterOptions.swift */,
+				D445B90F2516912C002EF638 /* AppRouterAssembly.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D445B9142516917E002EF638 /* FeedModule */ = {
+			isa = PBXGroup;
+			children = (
+				D445B917251691B0002EF638 /* Preview */,
+				D445B915251691A2002EF638 /* Feed */,
+				D445B91B251691DD002EF638 /* FeedModule.swift */,
+				D445B923251691E8002EF638 /* FeedModuleAssembly.swift */,
+				D445B928251691F4002EF638 /* FeedService.swift */,
+				D445B92D25169200002EF638 /* FeedRouter.swift */,
+			);
+			path = FeedModule;
+			sourceTree = "<group>";
+		};
+		D445B915251691A2002EF638 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D445B918251691BA002EF638 /* ViewModel */,
+				D445B916251691AC002EF638 /* View */,
+				D445B94A25169E72002EF638 /* FeedViewAssembly.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		D445B916251691AC002EF638 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D445B93725169228002EF638 /* FeedViewController.swift */,
+				D445B93825169228002EF638 /* FeedViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D445B917251691B0002EF638 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				D445B91A251691CA002EF638 /* ViewModel */,
+				D445B919251691C4002EF638 /* View */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		D445B918251691BA002EF638 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D445B9322516920E002EF638 /* FeedViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D445B919251691C4002EF638 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D445B93E25169240002EF638 /* PreviewViewController.swift */,
+				D445B93F25169240002EF638 /* PreviewViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D445B91A251691CA002EF638 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D445B9452516924D002EF638 /* PreviewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D445B95B25176947002EF638 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D445B95C2517695C002EF638 /* FeedEntity.swift */,
+				D445B96125176AFB002EF638 /* FeedApi.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 		D4F2EFB22516593F0099DCCA = {
@@ -130,6 +401,9 @@
 			children = (
 				D4F2EFBE251659400099DCCA /* AppDelegate.swift */,
 				D4F2EFC0251659400099DCCA /* SceneDelegate.swift */,
+				D445B8842516821C002EF638 /* Modules */,
+				D445B881251681FF002EF638 /* Extensions */,
+				D445B87D251681C5002EF638 /* Components */,
 				D4F2EFF4251659670099DCCA /* Resources */,
 			);
 			path = NextappTechTask;
@@ -271,7 +545,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4F2EFCB2516594A0099DCCA /* LaunchScreen.storyboard in Resources */,
+				D445B93A25169228002EF638 /* FeedViewController.xib in Resources */,
 				D4F2EFC82516594A0099DCCA /* Assets.xcassets in Resources */,
+				D445B94125169240002EF638 /* PreviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,8 +653,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D445B9332516920E002EF638 /* FeedViewModel.swift in Sources */,
+				D445B90B25169116002EF638 /* AppRouterOptions.swift in Sources */,
+				D445B8CD25168627002EF638 /* HudStatus.swift in Sources */,
+				D445B906251690F0002EF638 /* AppRouter+Show.swift in Sources */,
+				D445B8912516828B002EF638 /* Resolver.swift in Sources */,
+				D445B8C8251683F9002EF638 /* ApiProvider.swift in Sources */,
+				D445B8E6251687BD002EF638 /* SDWebImage+Rx.swift in Sources */,
+				D445B92E25169200002EF638 /* FeedRouter.swift in Sources */,
+				D445B96225176AFB002EF638 /* FeedApi.swift in Sources */,
 				D4F2EFBF251659400099DCCA /* AppDelegate.swift in Sources */,
+				D445B8E125168796002EF638 /* ProgressHud+Rx.swift in Sources */,
+				D445B93925169228002EF638 /* FeedViewController.swift in Sources */,
+				D445B88B25168254002EF638 /* Navigator.swift in Sources */,
+				D445B8D22516869E002EF638 /* ApiEvent+Rx.swift in Sources */,
 				D4F2EFC1251659400099DCCA /* SceneDelegate.swift in Sources */,
+				D445B8A525168307002EF638 /* NavigationController.swift in Sources */,
+				D445B8FC251690B5002EF638 /* AppRouter.swift in Sources */,
+				D445B924251691E8002EF638 /* FeedModuleAssembly.swift in Sources */,
+				D445B88625168239002EF638 /* TransitionHandler.swift in Sources */,
+				D445B8F62516908F002EF638 /* AppModule.swift in Sources */,
+				D445B9462516924D002EF638 /* PreviewViewModel.swift in Sources */,
+				D445B8AA25168322002EF638 /* ProgressHud.swift in Sources */,
+				D445B929251691F4002EF638 /* FeedService.swift in Sources */,
+				D445B8BE251683B1002EF638 /* ApiEndPoint.swift in Sources */,
+				D445B8A0251682F0002EF638 /* BaseViewController.swift in Sources */,
+				D445B8B425168376002EF638 /* Deseriazable.swift in Sources */,
+				D445B8EB25169014002EF638 /* ReusableKit.swift in Sources */,
+				D445B94025169240002EF638 /* PreviewViewController.swift in Sources */,
+				D445B91C251691DD002EF638 /* FeedModule.swift in Sources */,
+				D445B9102516912C002EF638 /* AppRouterAssembly.swift in Sources */,
+				D445B8F02516904C002EF638 /* RootAssembler.swift in Sources */,
+				D445B8AF2516835D002EF638 /* BaseApi.swift in Sources */,
+				D445B8DC25168720002EF638 /* UIViewController+UI.swift in Sources */,
+				D445B901251690D6002EF638 /* AppRouter+TransitionHandler.swift in Sources */,
+				D445B896251682B6002EF638 /* Module.swift in Sources */,
+				D445B89B251682CC002EF638 /* AppContainer.swift in Sources */,
+				D445B8B925168392002EF638 /* ApiGateway.swift in Sources */,
+				D445B95D2517695C002EF638 /* FeedEntity.swift in Sources */,
+				D445B8D725168706002EF638 /* Rx.swift in Sources */,
+				D445B94B25169E72002EF638 /* FeedViewAssembly.swift in Sources */,
+				D445B8C3251683D5002EF638 /* ErrorEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +864,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QXZ7LH92J7;
-				INFOPLIST_FILE = NextappTechTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NextappTechTask/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,7 +884,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QXZ7LH92J7;
-				INFOPLIST_FILE = NextappTechTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NextappTechTask/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
