@@ -15,7 +15,6 @@ class FeedModule: Module {
         self.assembler = assembler.with(assemblies: FeedModuleAssembly())
     }
     
-    
     func showFeedModule(with transitionHandler: TransitionHandler) -> UIViewController {
         return assembler
             .with(assemblies: FeedViewAssembly())
@@ -23,6 +22,4 @@ class FeedModule: Module {
             .resolver
             .resolve(FeedViewController.self)!
     }
-    
-    
 }

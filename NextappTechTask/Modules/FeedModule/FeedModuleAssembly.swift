@@ -10,6 +10,9 @@ import SwinjectAutoregistration
 
 internal class FeedModuleAssembly: Assembly {
     func assemble(container: Container) {
-        container.autoregister(FeedService.self, initializer: FeedService.init)
+        container
+            .autoregister(FeedService.self, initializer: FeedService.init)
+        container
+            .autoregister(FeedApi.self, initializer: FeedApi.init(base:))
     }
 }

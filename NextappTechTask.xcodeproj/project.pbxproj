@@ -50,6 +50,17 @@
 		D445B94B25169E72002EF638 /* FeedViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B94A25169E72002EF638 /* FeedViewAssembly.swift */; };
 		D445B95D2517695C002EF638 /* FeedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B95C2517695C002EF638 /* FeedEntity.swift */; };
 		D445B96225176AFB002EF638 /* FeedApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B96125176AFB002EF638 /* FeedApi.swift */; };
+		D445B96825176DEB002EF638 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B96625176DEB002EF638 /* FeedCell.swift */; };
+		D445B96925176DEB002EF638 /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D445B96725176DEB002EF638 /* FeedCell.xib */; };
+		D445B96E25177356002EF638 /* ReusableKit+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B96D25177356002EF638 /* ReusableKit+UICollectionView.swift */; };
+		D445B973251793D3002EF638 /* PreviewViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B972251793D3002EF638 /* PreviewViewAssembly.swift */; };
+		D445B9882517CBFD002EF638 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B9862517CBFD002EF638 /* StoryCell.swift */; };
+		D445B9892517CBFD002EF638 /* StoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D445B9872517CBFD002EF638 /* StoryCell.xib */; };
+		D445B99A2517E4CE002EF638 /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B9992517E4CD002EF638 /* UIScrollView+Rx.swift */; };
+		D445B99F2517F658002EF638 /* CubeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B99E2517F657002EF638 /* CubeAnimation.swift */; };
+		D445B9A72518042B002EF638 /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B9A62518042A002EF638 /* SegmentedProgressBar.swift */; };
+		D445B9AD25180476002EF638 /* AnimatedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445B9AC25180476002EF638 /* AnimatedCollectionViewLayout.swift */; };
+		D4DCF390251813860070D8A9 /* UICollectionView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCF38F251813860070D8A9 /* UICollectionView+Rx.swift */; };
 		D4F2EFBF251659400099DCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2EFBE251659400099DCCA /* AppDelegate.swift */; };
 		D4F2EFC1251659400099DCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2EFC0251659400099DCCA /* SceneDelegate.swift */; };
 		D4F2EFC82516594A0099DCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F2EFC72516594A0099DCCA /* Assets.xcassets */; };
@@ -121,6 +132,17 @@
 		D445B94A25169E72002EF638 /* FeedViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAssembly.swift; sourceTree = "<group>"; };
 		D445B95C2517695C002EF638 /* FeedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedEntity.swift; sourceTree = "<group>"; };
 		D445B96125176AFB002EF638 /* FeedApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedApi.swift; sourceTree = "<group>"; };
+		D445B96625176DEB002EF638 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		D445B96725176DEB002EF638 /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		D445B96D25177356002EF638 /* ReusableKit+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableKit+UICollectionView.swift"; sourceTree = "<group>"; };
+		D445B972251793D3002EF638 /* PreviewViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewAssembly.swift; sourceTree = "<group>"; };
+		D445B9862517CBFD002EF638 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		D445B9872517CBFD002EF638 /* StoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCell.xib; sourceTree = "<group>"; };
+		D445B9992517E4CD002EF638 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
+		D445B99E2517F657002EF638 /* CubeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeAnimation.swift; sourceTree = "<group>"; };
+		D445B9A62518042A002EF638 /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
+		D445B9AC25180476002EF638 /* AnimatedCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCollectionViewLayout.swift; sourceTree = "<group>"; };
+		D4DCF38F251813860070D8A9 /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		D4F2EFBB251659400099DCCA /* NextappTechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextappTechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F2EFBE251659400099DCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F2EFC0251659400099DCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +206,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D430B2E0251831AC00630FA6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D445B92D25169200002EF638 /* FeedRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D430B2E1251831B700630FA6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D445B928251691F4002EF638 /* FeedService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		D445B87D251681C5002EF638 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +239,7 @@
 				D445B89F251682F0002EF638 /* BaseViewController.swift */,
 				D445B8A425168307002EF638 /* NavigationController.swift */,
 				D445B8A925168322002EF638 /* ProgressHud.swift */,
+				D445B9A62518042A002EF638 /* SegmentedProgressBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -242,6 +281,8 @@
 			isa = PBXGroup;
 			children = (
 				D445B8D12516869E002EF638 /* ApiEvent+Rx.swift */,
+				D445B9992517E4CD002EF638 /* UIScrollView+Rx.swift */,
+				D4DCF38F251813860070D8A9 /* UICollectionView+Rx.swift */,
 				D445B8D625168706002EF638 /* Rx.swift */,
 				D445B8DB25168720002EF638 /* UIViewController+UI.swift */,
 				D445B8E025168796002EF638 /* ProgressHud+Rx.swift */,
@@ -254,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				D445B8EA25169014002EF638 /* ReusableKit.swift */,
+				D445B96D25177356002EF638 /* ReusableKit+UICollectionView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -306,8 +348,8 @@
 				D445B915251691A2002EF638 /* Feed */,
 				D445B91B251691DD002EF638 /* FeedModule.swift */,
 				D445B923251691E8002EF638 /* FeedModuleAssembly.swift */,
-				D445B928251691F4002EF638 /* FeedService.swift */,
-				D445B92D25169200002EF638 /* FeedRouter.swift */,
+				D430B2E1251831B700630FA6 /* Service */,
+				D430B2E0251831AC00630FA6 /* Router */,
 			);
 			path = FeedModule;
 			sourceTree = "<group>";
@@ -327,6 +369,7 @@
 			children = (
 				D445B93725169228002EF638 /* FeedViewController.swift */,
 				D445B93825169228002EF638 /* FeedViewController.xib */,
+				D4DCF394251819ED0070D8A9 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,6 +379,7 @@
 			children = (
 				D445B91A251691CA002EF638 /* ViewModel */,
 				D445B919251691C4002EF638 /* View */,
+				D445B972251793D3002EF638 /* PreviewViewAssembly.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -353,6 +397,8 @@
 			children = (
 				D445B93E25169240002EF638 /* PreviewViewController.swift */,
 				D445B93F25169240002EF638 /* PreviewViewController.xib */,
+				D445B9B4251804C9002EF638 /* CollectionViewLayout */,
+				D445B9AB25180455002EF638 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,6 +418,33 @@
 				D445B96125176AFB002EF638 /* FeedApi.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		D445B9AB25180455002EF638 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D445B9862517CBFD002EF638 /* StoryCell.swift */,
+				D445B9872517CBFD002EF638 /* StoryCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D445B9B4251804C9002EF638 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D445B99E2517F657002EF638 /* CubeAnimation.swift */,
+				D445B9AC25180476002EF638 /* AnimatedCollectionViewLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		D4DCF394251819ED0070D8A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D445B96625176DEB002EF638 /* FeedCell.swift */,
+				D445B96725176DEB002EF638 /* FeedCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		D4F2EFB22516593F0099DCCA = {
@@ -546,8 +619,10 @@
 			files = (
 				D4F2EFCB2516594A0099DCCA /* LaunchScreen.storyboard in Resources */,
 				D445B93A25169228002EF638 /* FeedViewController.xib in Resources */,
+				D445B9892517CBFD002EF638 /* StoryCell.xib in Resources */,
 				D4F2EFC82516594A0099DCCA /* Assets.xcassets in Resources */,
 				D445B94125169240002EF638 /* PreviewViewController.xib in Resources */,
+				D445B96925176DEB002EF638 /* FeedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,14 +739,20 @@
 				D445B96225176AFB002EF638 /* FeedApi.swift in Sources */,
 				D4F2EFBF251659400099DCCA /* AppDelegate.swift in Sources */,
 				D445B8E125168796002EF638 /* ProgressHud+Rx.swift in Sources */,
+				D445B9A72518042B002EF638 /* SegmentedProgressBar.swift in Sources */,
+				D445B99F2517F658002EF638 /* CubeAnimation.swift in Sources */,
 				D445B93925169228002EF638 /* FeedViewController.swift in Sources */,
 				D445B88B25168254002EF638 /* Navigator.swift in Sources */,
+				D445B99A2517E4CE002EF638 /* UIScrollView+Rx.swift in Sources */,
 				D445B8D22516869E002EF638 /* ApiEvent+Rx.swift in Sources */,
 				D4F2EFC1251659400099DCCA /* SceneDelegate.swift in Sources */,
+				D445B9882517CBFD002EF638 /* StoryCell.swift in Sources */,
 				D445B8A525168307002EF638 /* NavigationController.swift in Sources */,
 				D445B8FC251690B5002EF638 /* AppRouter.swift in Sources */,
+				D445B973251793D3002EF638 /* PreviewViewAssembly.swift in Sources */,
 				D445B924251691E8002EF638 /* FeedModuleAssembly.swift in Sources */,
 				D445B88625168239002EF638 /* TransitionHandler.swift in Sources */,
+				D445B96E25177356002EF638 /* ReusableKit+UICollectionView.swift in Sources */,
 				D445B8F62516908F002EF638 /* AppModule.swift in Sources */,
 				D445B9462516924D002EF638 /* PreviewViewModel.swift in Sources */,
 				D445B8AA25168322002EF638 /* ProgressHud.swift in Sources */,
@@ -688,11 +769,14 @@
 				D445B8DC25168720002EF638 /* UIViewController+UI.swift in Sources */,
 				D445B901251690D6002EF638 /* AppRouter+TransitionHandler.swift in Sources */,
 				D445B896251682B6002EF638 /* Module.swift in Sources */,
+				D445B96825176DEB002EF638 /* FeedCell.swift in Sources */,
+				D4DCF390251813860070D8A9 /* UICollectionView+Rx.swift in Sources */,
 				D445B89B251682CC002EF638 /* AppContainer.swift in Sources */,
 				D445B8B925168392002EF638 /* ApiGateway.swift in Sources */,
 				D445B95D2517695C002EF638 /* FeedEntity.swift in Sources */,
 				D445B8D725168706002EF638 /* Rx.swift in Sources */,
 				D445B94B25169E72002EF638 /* FeedViewAssembly.swift in Sources */,
+				D445B9AD25180476002EF638 /* AnimatedCollectionViewLayout.swift in Sources */,
 				D445B8C3251683D5002EF638 /* ErrorEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
